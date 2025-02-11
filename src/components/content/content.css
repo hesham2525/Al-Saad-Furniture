@@ -392,12 +392,13 @@
 @media only  screen and (max-width: 440px){
   .para2{
     font-size:10px;
+    text-indent:-20px;
 
     line-height: 28px;
   }
   .para22{
     font-size:10px;
-    
+    text-indent:-20px;
     line-height: 28px;
 
   }
