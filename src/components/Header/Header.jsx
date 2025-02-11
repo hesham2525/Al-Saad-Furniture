@@ -48,10 +48,8 @@ export default function Header() {
         <div>
           <Navbar expand="lg" className="mt-4">
             <Container fluid>
-              <Navbar.Offcanvas>
                 <Offcanvas.Body dir="ltr" className="offcanvas-body">
                   <Nav className="mainHeader">
-                   
                     <div className="links-container">
                       <p className="links" href="#action1">
                         مؤسسة نوف  مسعود بن مطلق الدوسري للاثاث المستعمل
@@ -62,11 +60,11 @@ export default function Header() {
                         className="logoImage"
                         src="/public/logo2.png"
                         alt="logo"
+                        loading="lazy"
                       />
                     </div>
                   </Nav>
                 </Offcanvas.Body>
-              </Navbar.Offcanvas>
             </Container>
           </Navbar>
         </div>

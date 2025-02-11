@@ -177,3 +177,18 @@
     font-weight: 600;
     color: rgb(60, 60, 60);
   }
+
+  /* ////////////////////////// */
+  /* .sec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+  } */
+
+  .secSlider{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }

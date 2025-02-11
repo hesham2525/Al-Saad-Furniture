@@ -3,6 +3,7 @@ import { GoDotFill } from "react-icons/go";
 import { GoDot } from "react-icons/go";
 import "./content.css";
 import { FaWhatsapp } from 'react-icons/fa';
+import LeafletMap from "../Map/Map";
 
 
 export default function Content() {
@@ -107,10 +108,27 @@ export default function Content() {
          <div className="btnWhatsap">
           <a  href="https://wa.me/+966530030236" className="ancurBtn"> <button className="btn1" > <FaWhatsapp size={20} />  ....  تواصل معنا عبر الوتساب    </button></a>
         </div>
+          <br/>
+          <br/>
+        <div className="secSlider">
+            <div >
+                <img src="/public/بوتجاز.jpg" alt="" width={500} />
+            </div>
+            <div>
+              <p>hesham</p>
+            </div>
+
+        </div>
+
+        <br/>
+        <br/>
+
+        <LeafletMap />
       
-
-        
-
+      
+        <div className="btnWhatsap">
+          <a  href="https://wa.me/+966530030236" className="ancurBtn"> <button className="btn1" > <FaWhatsapp size={20} />  ....  تواصل معنا عبر الوتساب    </button></a>
+        </div>
     </>
   );
 }
