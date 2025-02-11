@@ -145,8 +145,9 @@
   }
   @media only screen and (max-width: 440px) {
     .links {
-      font-size: 10px;
+      font-size: 12px;
       margin-top: 8%;
+      font-weight: bold;
     }
   }
  
