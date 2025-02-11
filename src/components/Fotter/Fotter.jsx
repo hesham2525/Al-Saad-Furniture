@@ -82,6 +82,7 @@ export default function Footer() {
                   <div className="iconStyle1">
                     <FaXTwitter />
                   </div>
+                  
               </div>
           </div>
         </div>

@@ -50,7 +50,7 @@ export default function Content() {
     <>
       <div className="Containar">
         <div className="ImageCover">
-          <img className="img1" src="/public/backgrpund-1.jpg" alt="" />
+          <img className="img1" src="/backgrpund-1.jpg" alt="" />
           <div className="textCover">
             <h2>مؤسسة سعد </h2>
             <p> للأثاث الجديد المودرن و الكلاسيك بالرياض</p>

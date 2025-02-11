@@ -5,10 +5,9 @@ import Fotter from "../components/Fotter/Fotter";
 export default function Index() {
   return (
    <>
-   <Header />
-
+     <Header />
       <Content />
-   <Fotter />
+      <Fotter />
    </>
   )
 }

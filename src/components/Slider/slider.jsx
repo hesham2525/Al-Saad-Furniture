@@ -3,17 +3,17 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const images = [
-  "/public/نوم.jpg",
-  "/public/خزانات ملابس.jpg",
-  "/public/خزانات.jpg",
-  "/public/نوم2.jpg",
-  "/public/نوم4.jpg",
-  "/public/خزانات2.jpg",
-  "/public/خزانات3.jpg",
-  "/public/نوم5.jpg",
-  "/public/نوم6.jpg",
-  "/public/خزانات7.jpg",
-  "/public/نووم3.jpg",
+  "/نوم.jpg",
+  "/خزانات ملابس.jpg",
+  "/خزانات.jpg",
+  "/نوم2.jpg",
+  "/نوم4.jpg",
+  "/خزانات2.jpg",
+  "/خزانات3.jpg",
+  "/نوم5.jpg",
+  "/نوم6.jpg",
+  "/خزانات7.jpg",
+  "/نووم3.jpg",
 ];
 
 function ImageSlider() {
