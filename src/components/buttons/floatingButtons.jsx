@@ -1,5 +1,5 @@
 import { FaWhatsapp, FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa';
-import './FloatingButtons.css'; 
+import './floatingButtons.css'; 
 
 const FloatingButtons = () => {
 
