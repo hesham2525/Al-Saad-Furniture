@@ -388,3 +388,19 @@
 }
   
 }
+
+@media only  screen and (max-width: 440px){
+  .para2{
+    font-size:7px;
+
+    line-height: 28px;
+  }
+  .para22{
+    font-size:6px;
+    line-height: 28px;
+
+  }
+  .para11{
+      font-size: 11px;
+  }
+}
