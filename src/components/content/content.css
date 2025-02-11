@@ -78,18 +78,15 @@
   .para1 {
     font-size: 28px;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     margin-top: 3%;
   }
   .para2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: justify;
     font-size: 20px;
     font-weight: 600;
     color: rgb(60, 60, 60);
+    line-height: 1.6;
 
   }
 
@@ -275,10 +272,14 @@
 }
 .para1,.para11{
   font-size: 24px;
+  text-indent:-20px;
+  text-align: center;
 
 }
 .para2,.para22{
-  font-size: 14px;
+  font-size: 16px;
+  text-indent:-20px;
+  text-align: center;
   line-height: 30px;
 }
 .citiesImages{
@@ -308,10 +309,14 @@
   }
   .para1,.para11{
     font-size: 20px;
+    text-indent:-20px;
+    text-align: center;
   
   }
   .para2,.para22{
-    font-size: 12px;
+    font-size: 18px;
+    text-indent:-20px;
+    text-align: center;
     line-height: 30px;
   }
   .citiesImages{
@@ -335,11 +340,14 @@
 @media only screen and (max-width: 760px) {
   .para1,.para11{
     font-size: 18px;
+    text-indent:-20px;
+    text-align: center;
   
   }
   .para2,.para22{
-    font-size: 10px;
-
+    font-size: 16px;
+    text-align: center;
+    text-indent:-20px;
     line-height: 30px;
   }
   .mainP{
@@ -362,13 +370,16 @@
 
 @media only screen and (max-width: 560px) {
   .para1,.para11{
-    font-size: 13px;
+    font-size: 16px;
+    text-align: center;
+    text-indent:-20px;
   
   }
   .para2,.para22{
-    font-size: 8px;
-
-    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    text-indent:-20px;
+    line-height: 28px;
   }
   .btn1{
     width: 200px;
@@ -391,15 +402,13 @@
 
 @media only  screen and (max-width: 440px){
   .para2{
-    font-size:10px;
-    text-indent:-20px;
-
-    line-height: 28px;
+    font-size:14px;
+    line-height: 25px;
   }
   .para22{
-    font-size:10px;
+    font-size:13px;
     text-indent:-20px;
-    line-height: 28px;
+    line-height: 25px;
 
   }
   .para11{
