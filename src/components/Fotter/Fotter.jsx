@@ -24,9 +24,9 @@ export default function Footer() {
             <ul className="contactDetails">
               <li>
                 <span className="icon"> <div className="iconStyle2">
-                  <a style={{color:"rgb(103, 215, 240)"}} href="tel:+966530030236"><FaPhoneAlt /></a>
+                  <a style={{color:"rgb(103, 215, 240)"}} href="tel:+966547620899"><FaPhoneAlt /></a>
                 </div>
-                </span> 530030236
+                </span> 0547620899
               </li>
               <li>
                 <span className="icon"><div className="iconStyle2">
@@ -70,19 +70,19 @@ export default function Footer() {
             <p className="aboutText">الخيارات للاثاث المستعمل باعلى جودة و افضل سعر في الرياض </p>
             <br/>
             <div className="socialIcons">
-            <div className="iconStyle1">
-                  <BsSnapchat />
-                </div>
-                <div className="iconStyle1">
-                  <FaTiktok />
-                </div>
-                <div className="iconStyle1">
-                  <FaInstagram />
-                </div>
-                <div className="iconStyle1">
-                  <FaXTwitter />
-                </div>
-            </div>
+              <div className="iconStyle1">
+                    <BsSnapchat />
+                  </div>
+                  <div className="iconStyle1">
+                    <FaTiktok />
+                  </div>
+                  <div className="iconStyle1">
+                    <FaInstagram />
+                  </div>
+                  <div className="iconStyle1">
+                    <FaXTwitter />
+                  </div>
+              </div>
           </div>
         </div>
 

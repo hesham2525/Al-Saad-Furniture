@@ -5,14 +5,14 @@ const FloatingButtons = () => {
 
   return (
     <div className="floating-buttons">
-      <a href="https://wa.me/+966530030236"  target="_blank" rel="noopener noreferrer" className="floating-button whatsapp">
+      <a href="https://wa.me/+966547620899"  target="_blank" rel="noopener noreferrer" className="floating-button whatsapp">
         <FaWhatsapp size={28} />
       </a>
      
-      <a href="tel:+966530030236" className="floating-button call">
+      <a href="tel:+966547620899" className="floating-button call">
         <FaPhoneAlt size={20} />
       </a>
-      <a href="" target="_blank" rel="noopener noreferrer" className="floating-button map">
+      <a href="https://www.google.com/maps?q=24.5422,46.7596" target="_blank" rel="noopener noreferrer" className="floating-button map">
         <FaMapMarkerAlt size={22} />
       </a>
     </div>

@@ -1,11 +1,11 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-
-const position = [24.570996, 46.741757]; // Riyadh, Saudi Arabia
+import './map.css'
+const position = [24.5422, 46.7596]; 
 
 function LeafletMap() {
   return (
-    <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "500px" }}>
+    <div  className="responsive-map" style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "500px" }}>
       <MapContainer center={position} zoom={10} style={{ height: "400px", width: "80%" }}>
         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
         <Marker position={position}>

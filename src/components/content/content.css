@@ -28,6 +28,26 @@
     color: white;
     font-size: 30px;
     font-weight: bold;
+    opacity: 0;
+    transform: translateY(50px); 
+    animation: slideUp 1s ease-in-out forwards;
+  }
+  @keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+  .textCover:hover{
+
+        font-size: 32px;
+        transition: 1s ;
+        cursor: pointer;
+
   }
   .btnWhatsap{
     display: flex;
@@ -47,7 +67,6 @@
     border-radius: 20px;
     cursor: pointer;
     box-shadow: 2px 4px 10px #189cce2e;
-    margin-left: 70px;
 
   }  
   .btn1:hover {
@@ -57,7 +76,7 @@
     text-decoration: none;
   }
   .para1 {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -68,7 +87,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 600;
     color: rgb(60, 60, 60);
 
@@ -192,3 +211,180 @@
     justify-content: space-around;
     align-items: center;
   }
+
+
+  .information2 {
+    text-align: right; 
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.paraWhy {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.info-list {
+    display: flex;
+    flex-direction: column; 
+    gap: 5px; 
+    font-size: 20px;
+    line-height: 2; 
+}
+.mainP{
+  font-size: 24px;
+  font-weight: bold;
+  color: "#333";
+  margin-bottom: 10px;
+  
+}
+.sideP{
+  font-size: 18px;
+  color:#555 ;
+  margin-bottom: 5px;
+}
+.sideP2{
+  font-size: 18px;
+  color:#28a745 ;
+  font-weight: bold;
+}
+.sideP3{
+
+  font-size: 20px;
+  color:#dc3545 ;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 990px) {
+
+.textCover{
+  font-size: 25px;
+}
+.btn1{
+  width: 250px;
+    height: 45px;
+    font-size:18px ;
+}
+.para1,.para11{
+  font-size: 24px;
+
+}
+.para2,.para22{
+  font-size: 14px;
+  line-height: 30px;
+}
+.citiesImages{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.secSlider{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+
+}
+
+@media only screen and (max-width: 840px) {
+ 
+  .textCover{
+    font-size:20px;
+  }
+  .btn1{
+      width: 230px;
+      height: 40px;
+      font-size:16px ;
+  }
+  .para1,.para11{
+    font-size: 20px;
+  
+  }
+  .para2,.para22{
+    font-size: 12px;
+    line-height: 30px;
+  }
+  .citiesImages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .paraWhy{
+    font-size: 25px;
+
+  }
+  .info-list{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-right: 50px;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .para1,.para11{
+    font-size: 18px;
+  
+  }
+  .para2,.para22{
+    font-size: 10px;
+
+    line-height: 30px;
+  }
+  .mainP{
+    font-size:20px;
+  }
+  .sideP{
+    font-size:16px;
+
+  }
+  .sideP2{
+    font-size: 15px;
+
+  }
+  .sideP3{
+    font-size: 17px;
+
+  }
+
+}
+
+@media only screen and (max-width: 560px) {
+  .para1,.para11{
+    font-size: 13px;
+  
+  }
+  .para2,.para22{
+    font-size: 8px;
+
+    line-height: 30px;
+  }
+  .btn1{
+    width: 200px;
+    height: 40px;
+    font-size:14px ;
+}
+.paraWhy{
+  font-size: 20px;
+
+}
+.info-list{
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-right: 50px;
+}
+  
+}
